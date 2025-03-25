@@ -101,3 +101,4 @@ docker run -d --name rabbit-test -e RABBITMQ_DEFAULT_USER=guest -e RABBITMQ_DEFA
 docker run --name notifications -e ASPNETCORE_ENVIRONMENT=Development -p 8082:8080 -p 8083:8081 notifications
 ### Create Container for Ratings
 docker run --name ratings -e ASPNETCORE_ENVIRONMENT=Development -p 8084:8080 -p 8085:8081 ratings
+# Done
